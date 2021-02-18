@@ -38,7 +38,6 @@ Check out the Docker overview from the official docs page: https://docs.docker.c
 - `docker exec`: attach a terminal into a running container
 - `docker rm`: removes an image from the local registry
 - `docker rmi`: removes an image from the local registry
-- ``: list, create, or remove volumes
 - `docker system df`: review disk usage 
 - `docker system prune`: clear images, volumes, networks, ..., optionally only
 
@@ -48,6 +47,7 @@ Check out the Docker overview from the official docs page: https://docs.docker.c
 - `docker stop`
 - `docker logs`
 - `docker kill`
+- `docker volumes`
 - `docker network`
 
 
