@@ -36,9 +36,8 @@ Other known Python implementations are:
 Python programs are composed of modules (`.py` files), from which we can distinguish three main types:
 - **Top Module**: entrypoint module that contains the `main()` function
 - **Standard Library Modules**: standard modules that come with Python by default, usually found under `/usr/lib/{PYTHON_VERSION}` (e.g. `os`, `json`)
-- **Non-Standard Library Modules**: 
-    - **Custom Modules**: custom modules eventually imported by the top module, usually found in the same directory as the top module or in any colon-separated directories listed in `$PYTHONPATH`
-    - **External Modules**: modules that are installed using Python package managers such as `pip`, usually found under `/usr/local/lib/{PYTHON_VERSION}/dist-packages` or `{HOME_DIRECTORY}/.local/lib/{PYTHON_VERSION}/site-packages` (e.g. `tensorflow`, `seaborn`)
+- **Custom Modules**: custom modules eventually imported by the top module, usually found in the same directory as the top module or in any colon-separated directories listed in `$PYTHONPATH`
+- **External Modules**: modules that are installed using Python package managers such as `pip`, usually found under `/usr/local/lib/{PYTHON_VERSION}/dist-packages` or `{HOME_DIRECTORY}/.local/lib/{PYTHON_VERSION}/site-packages` (e.g. `tensorflow`, `seaborn`)
 
 When running Python, the contents of `sys.path` show the list of directories from where modules can be imported.
 
