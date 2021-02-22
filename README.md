@@ -13,13 +13,11 @@ This is a brief introduction to 4 relevant technologies that can boost the quali
 - [*Linux and BASH: a Versatile and Powerful Software Platform*](modules/1-linux-bash/README.md)
 - [*Git and GitFlow: Source Control and Collaboration*](modules/2-git-gitflow/README.md)
 - [*Docker and Docker-compose: Application Containerization*](modules/3-docker-docker-compose/README.md)
-- [*VSCode and Conda: Clean and Efficient Python Programming*](modules/4-vscode-conda/README.md)
+- [*Python and its Ecosystem: A High Level View*](modules/4-python-ecosystem/README.md)
 
 <br /><hr />
 
 ## Roadmap:
 
-- Add Docker/Docker-Compose module content
-- Add VSCode/Conda module content
 - Review content and balance out module content lengths
 - Add mini workshops for each module to practice using commands hands-on
